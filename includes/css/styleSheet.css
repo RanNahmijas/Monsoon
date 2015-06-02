@@ -1,0 +1,931 @@
+/*
+* -----------------------------------------------
+*	Purpose: Main CSS file - MONSOON
+*	Version: 0.1
+*	Author: Dror Afargan & Ran Nahmijas
+*	Date: 1/6/2013
+* --------------------------------------------
+*/
+
+/*---------------------------
+	General Css
+	----------------------------*/
+* 
+{
+	margin:0px; 
+	padding:0px;
+}
+
+header,section,nav,aside,footer,article
+{
+	display:block;
+}
+
+body
+{
+	font-family: 'Lato', sans-serif; color: #fff;
+	overflow:hidden;
+}
+.lightText
+{
+	font-weight:300;
+}
+
+
+/*---------------------------
+	HomePage CSS 
+	----------------------------*/
+#homePage
+{
+	position:absolute;	
+	width:100%;
+	height:100%;
+	background-color: #34383b; 
+}
+
+article.page1Contnt
+{
+	position: absolute;
+	width:406px;
+	height:499px;
+	left: 50%;
+	margin-top: 13%;
+	margin-left: -203px;
+	display:block;	
+	background-image:url("../../img/page1images/umbrellaFirstPage.png");
+}
+#homePage .arrowNavigate
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -23px;
+}	
+
+/*---------------------------
+	ProjectPage CSS 
+	----------------------------*/
+#page_2
+{
+	position:absolute;	
+	width:100%;
+	height:100%;
+	background-color: #70787e;
+}
+#page_2 .page2
+{
+	position: absolute;
+	width:319px;
+	height:317px;
+	display:block;	
+	background-image:url("../../img/page2images/umbrellaSecondPage.png");
+}
+
+#page_2 section
+{
+	position: absolute;
+	left: 50%;
+	margin-top: 8%;
+	margin-left: -160px;
+}
+
+#projectPageIcon
+{
+	position:relative;	
+	top: 16px;	
+}
+
+#projectPageMenu
+{
+	position:relative;
+	left:323px;
+	top: 16px;
+	float:left;	
+}
+
+#projectPageMenu li
+{
+	padding-top: 35px;
+	font-style:normal;
+	font-weight:700; 	
+	font-size: 18px; 
+	color: #1d2023;
+	list-style-type: none; 
+}
+
+#projectPageMenu li a
+{
+	color: #1d2023; 
+	text-decoration: none; 
+}
+
+#projectPageMenu a:hover 
+{	
+	color:#d9fa01;
+} 
+
+.description 
+{
+	position: relative;
+	width:343px;
+	height:280px;
+	color: #dbf416;			
+}
+
+.description h1
+{
+	padding-top: 35px;	
+	font-style:normal;
+	font-weight:700; 
+	font-size: 18px; 
+}
+
+.description p
+{
+	padding-top: 30px;	
+	font-style:normal;
+	font-weight:300; 
+	font-size: 16px; 
+}	
+
+.description a
+{
+	position: absolute;
+	padding-top: 35px;
+	right:10px;	
+	font-style:normal;
+	font-weight:400;
+	font-size: 12px; 
+	color: #dbf416;
+}
+
+.climate
+{
+	display:block;	
+	display: none;	
+}
+
+.whyUmbrella
+{
+	display:block;	
+	display: none;	
+}
+
+.airport
+{
+	display:block;	
+	display: none;		
+}
+
+.concept
+{
+	display:block;	
+	display: none;		
+}
+
+#page_2  .arrowNavigate
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+/*---------------------------
+	CollectionPage CSS 
+	----------------------------*/
+#page_3
+{
+	position:absolute;	
+	width:100%;
+	height:100%;
+	background-color: #929ca4;
+	color: #d9fa01;	
+}
+
+#page_3 .pageHeader
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 4%;
+	font-style:normal;
+	font-weight:700;
+	font-size:26px;	
+	text-align: center;
+}
+
+#page_3 section
+{
+	position: absolute;
+	left: 50%;
+	margin-top: 18%;
+	margin-left: -263px;
+}
+.collectionItem
+{
+	float:left;
+	margin:0px 43px 0px 0px;
+}
+.itemTitle
+{
+	font-style:normal;
+	font-weight:400;
+	font-size:16px;
+	color:#1d2023;	
+}
+.itemTitleLight
+{
+	font-style:normal;
+	font-weight:300;
+	font-size:16px;
+	color:#1d2023;	
+}
+.collectionItem   img
+{
+	margin-top:-10px;
+}
+.itemRemark
+{
+	position:relative;
+	top:-205px;
+	left:135px;
+	font-style:normal;
+	font-weight:400;
+	font-size:10px;
+	color:#d9fa01;
+}
+.itemRemark p
+{
+	position:relative;
+	top:-15px;
+	left:20px;
+}
+.itemRemark2
+{
+	position:relative;
+	top:-209px;
+	left:125px;
+	font-style:normal;
+	font-weight:400;
+	font-size:10px;
+	color:#d9fa01;
+}
+.itemRemark3
+{
+	position:relative;
+	top:-221px;
+	left:115px;
+	font-style:normal;
+	font-weight:400;
+	font-size:10px;
+	color:#d9fa01;
+}
+.clearForTablet
+{
+	clear:none;
+	float:left;
+}	
+.clearForDesktop
+{
+	clear:both;
+}
+#page_3  .arrowNavigate
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -23px;
+}
+
+/*---------------------------
+	UmbrelaPage CSS 
+	----------------------------*/
+#page_4
+{
+	position:absolute;	
+	width:100%;
+	height:100%;
+	background-color: #111213;
+	/*background-color: #0d1110;*/	
+	color: #d9fa01;		
+}
+
+#page_4 article:first-of-type
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 4%;
+	font-style:normal;
+	font-weight:700;
+	font-size:26px;
+	text-align: center;
+}
+#page_4 section
+{
+	position: absolute;
+	left: 49%;
+	margin-top: 14%;
+	margin-left: -183px;
+}
+
+#umbrelaVideo
+{
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	width: 100%;
+	cursor: pointer;
+}
+
+#page_4 .right_container
+{
+	position: relative;
+	top: 155px;
+	left: 400px;
+	text-align: center;
+	font-style:normal;
+	font-weight:400;	
+	font-size:23px;
+}
+
+
+#page_4 hr
+{
+	border: 0; border-top: 1px solid #d9fa01;
+	background-color: #d9fa01;
+	width:113px;
+	margin:20px 0px 30px 85px;	
+}
+
+#colorMenu ul	
+{
+	margin:35px 0px 0px 75px;
+}
+
+#colorMenu li
+{
+	display: inline;
+	list-style-type: none;
+	padding-left:3px;
+}
+
+#page_4  .arrowNavigate
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+/*---------------------------
+	ASIDE BAR CSS 
+	----------------------------*/
+#asideBar 
+{
+	position:fixed;
+	left:21px;
+	top:-60%;
+	-webkit-transition: all .5s ease-in-out;  /*how fast it slides*/
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	z-index:999;
+	width:170px;
+	height: 100%;	
+}
+
+.menuForHomePage
+{
+	background:#1d2023;
+	color:#d9fa01;
+}
+.menuForUmbrelaPage
+{
+	background:#919da8;
+	color:#f4ff2e;
+}
+
+#asideBar:hover 
+{
+	top:0px;
+}
+
+#hiddenAside
+{                              
+	padding: 5px 0 5px 0;      
+	height:60%;
+	z-index: 1009;
+}
+
+nav
+{
+	position:relative;
+	top:100px;
+}
+
+nav a
+{
+	background:#5f5d70;
+	padding: 20px;
+	display:block;
+	margin-bottom:25px;
+	text-decoration:none;
+	font-style:normal;
+	font-weight:300;
+	font-size:20.31px;    
+	color:#5cd775;	
+}
+
+.menuForHomePage nav a
+{
+	background:#616365;
+	color:#d9fa01;
+}
+
+.menuForHomePage nav a:hover
+{
+	background:#d9fa01;
+	color:#1d2023;
+}
+
+.menuForUmbrelaPage nav a
+{
+	background:#a7aeb5;
+	color:#f4ff2e;
+}
+
+.menuForUmbrelaPage nav a:hover
+{
+	background:#f4ff2e;
+	color:#34383b;
+}
+
+#shownAside
+{	
+	height:40%;
+}
+
+#temprature
+{
+	margin-left:22px;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-style:normal;
+	font-weight:300;
+	font-size:45px;
+	visibility:hidden;
+}
+#temprature p
+{
+	display:inline;
+	margin-right:-7px;
+}
+#degree
+{
+	position:relative;
+	left:-25px;
+	top:-12px;
+	font-style:normal;
+	font-weight:300;
+	font-size:28px;
+}
+
+ #mapImg
+ {
+ 	height:90px;
+	width:150px;
+	margin-left:15px;
+	margin-top:27px; 
+ }
+.mapImgForHomePage 
+{
+	background-image:url("../../img/page1images/asiaMap.png");	
+}
+.mapImgForProjectPage 
+{
+	background-image:url("../../img/page2images/asiaMap2.png");	
+}
+.mapImgForCollectionPage
+{
+	background-image:url("../../img/page3images/asiaMap3.png");	
+}
+.mapImgForUmbrelaPage
+{
+	background-image:url("../../img/page4images/asiaMap4.png");	
+}
+#locationDot
+{
+	position:relative;
+	left:0px;
+	top:0px;
+	visibility:hidden;
+}
+
+#location
+{
+	position:absolute;
+	left:26px;
+	bottom:40px;
+}
+
+#location .portCode
+{
+	margin-bottom:13px;
+	font-style:normal;
+	font-weight:900;
+	font-size:20px;
+}
+
+#location .cityName
+{
+	font-style:normal;
+	font-weight:300;
+	font-size:20px;
+}
+
+#asideArrow
+{
+	position:relative;	
+	left:75px;
+	top:-18px;
+	z-index:1002;
+}
+
+#pageTitle
+{
+	position:relative;
+	top:-32px;
+	background-color:#d9fa01;
+	visibility:visible;
+	padding:25px;
+	color:#1d2023;
+	font-style:normal;
+	font-weight:300;
+	font-size: 26px;
+}
+.menuForHomePage  #pageTitle
+{
+	visibility:hidden;
+}
+#homeIcon
+{
+	position:relative;
+	top:60px;
+	margin-left:65px;
+}
+
+/*---------------------------
+	ASIDE BAR CSS 
+	----------------------------*/
+#alertMovie 
+{
+	visibility:hidden;  
+	margin-right:20px; 
+	position:absolute;  
+	z-index:1012; left: 50%;	
+	margin-left: -475px;
+}
+#command 
+{
+	position:absolute; 
+	bottom:5px; 
+	height:25px; 
+	display:block; 
+	margin: 25px 0 0 0;
+}
+.alertSwitcher 
+{
+	position:relative;   
+	z-index:1011; 
+	outline:none; 
+	text-decoration:none;
+}
+.alertSwitcher:hover
+ {
+	text-decoration:underline;
+}
+.turnedOff 
+{
+	color:#ffff00;
+}
+#shadow
+{
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1011;
+	opacity: 0.75;
+	filter: alpha(opacity = 75);
+	zoom:1;
+}
+
+
+/*--------------------------------	TABLET	--------------------------------------------*/
+@media only screen and  (min-width:481px) and (max-width:979px) 
+{
+
+	/*-- HOME 2	--*/
+	#projectPageMenu
+	{
+		left:223px;
+		top: 16px;			
+	}			
+	
+	/*-- HOME 3	--*/	
+	#page_3 section
+	{
+		margin-left: -153px;
+	}
+	
+	.clearForTablet
+	{
+		clear:both;		
+	}	
+	
+	.clearForDesktop
+	{
+		clear:none;
+		float:left;
+	}
+	
+	
+	/*-- HOME 4	--*/
+	#page_4 
+	{
+		height: 2000px;
+	}
+	
+	#page_4 .right_container
+	{
+		top: 500px;
+		left: 50px;	
+		font-size:20px;
+	}
+	
+	#page_4 hr
+	{
+		margin:20px 0px 30px 70px;	
+	}
+	
+	#colorMenu ul	
+	{
+		margin:25px 0px 0px 75px;
+	}
+	
+	#page_4 section
+	{
+		position: absolute;
+		left: 50%;
+		margin-top: 14%;
+		margin-left: -183px;
+	}
+	
+	/*-- MAIN MENU	--*/
+	#asideBar 
+	{
+		top:-70%;		
+		width:150px;			
+	}
+	
+	#hiddenAside
+	{                              
+		height:70%;		
+	}
+	
+	nav
+	{
+		top:150px;
+	}
+	
+	nav a
+	{
+		padding: 10px;
+		margin-bottom:10px;		
+		font-size:17.3px; 		
+	}
+	
+	#shownAside
+	{	
+		height:30%;
+	}
+	
+	#temprature
+	{
+		font-size:35px; 
+		margin-top:5px;
+		margin-bottom:10px;
+	}
+		
+	#degree
+	{
+		left:-15px;
+		font-size:22px;
+	}
+	
+	#mapImg
+	{
+	 	width:145px;	
+		margin-left:2px;
+	}
+	
+	#location
+	{		
+		left:23px;
+		bottom:50px;
+	}
+	
+	#asideArrow
+	{
+		left:65px;
+		top:-23px;
+	}
+	
+	#pageTitle
+	{	
+		top:-36px;			
+		font-size: 23px;
+	}
+	
+	#homeIcon
+	{
+		margin-left:52px;
+	}
+	
+}
+
+@media only screen and (min-width:481px) and (max-width:979px) and (orientation : landscape)
+{
+	.clearForTablet
+	{
+		clear:both;		
+	}	
+	
+	.clearForDesktop
+	{
+		clear:none;
+		float:left;
+	}
+		
+}
+
+/*--------------------------------	SMARTPHONE	--------------------------------------------*/
+@media only screen and (max-width:480px) 
+{
+	/*-- HOME PAGE	--*/
+	
+	article.page1Contnt
+	{
+		margin-top: 10%;
+		margin-left: -150px;
+		background-image:url("../../img/page1images/Phone_umbrellaFirstPage.png");
+		background-repeat:no-repeat;
+	}	
+
+	/*-- PAGE 2	--*/
+	#page_2 section
+	{
+		top: 10%;	
+	}
+	
+	#projectPageMenu
+	{
+		left:123px;
+		top: 16px;			
+	}
+		
+	
+	/*-- PAGE 3	--*/
+	
+	#page_3 .pageHeader
+	{
+		margin-left: -150px;
+		margin-top: 150px;
+		font-size:20px;
+	}
+
+	#page_3 section
+	{
+		margin-top: 250px;
+		margin-left: -53px;
+	}
+	
+	.clearForTablet
+	{
+		clear:both;		
+	}	
+	.clearForDesktop
+	{
+		clear:none;
+		float:left;
+	}
+			
+	
+	/*-- HOME 4	--*/
+	
+	#page_4 
+	{
+		height: 2000px;
+	}
+	
+	#page_4 article:first-of-type
+	{
+		margin-top: 140px;
+	}
+	#umbrelaVideo
+	{
+		top: 10px;
+	}
+	#page_4 .right_container
+	{
+		top: 700px;
+		left: 50px;	
+		font-size:20px;
+	}
+	
+	#page_4 hr
+	{
+		margin:20px 0px 30px 70px;	
+	}
+	
+	#colorMenu ul	
+	{
+		margin:25px 0px 0px 75px;
+	}
+	
+		
+	/*-- MAIN MENU	--*/
+	#asideBar 
+	{
+		top:-98%;		
+		width:150px;			
+	}
+	
+	#hiddenAside
+	{                              
+		height:70%;		
+	}
+	
+	nav
+	{
+		top:150px;
+	}
+	
+	nav a
+	{
+		padding: 15px;
+		margin-bottom:15px;		
+		font-size:17.3px; 		
+	}
+	
+	#shownAside
+	{	
+		height:30%;
+	}
+	
+	#temprature
+	{
+		font-size:35px; 
+		margin-top:5px;
+		margin-bottom:10px;
+	}
+		
+	#degree
+	{
+		left:-15px;
+		font-size:22px;
+	}
+	
+	#mapImg
+	{
+	 	width:145px;	
+		margin-left:2px;
+	}
+	
+	#location
+	{		
+		left:23px;
+		bottom:50px;
+	}
+	
+	#asideArrow
+	{
+		left:65px;
+		top:-23px;
+	}
+	
+	#pageTitle
+	{	
+		top:-36px;			
+		font-size: 23px;
+	}
+	
+	#homeIcon
+	{
+		margin-left:52px;
+	}
+	
+}

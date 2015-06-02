@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MONSOON </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+		
+		<link rel="shortcut icon" href="img/favicon.ico" >
+   				
+		<!-- jQuery -->		
+		<script src="includes/javaScript/jquery-1.6.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+		
+		<!-- Javascript -->			
+		<script type="text/javascript" src="includes/javaScript/parallax.js"></script>
+		<script type="text/javascript" src="includes/javaScript/jsFile.js"></script> <!-- our Javascript file-->	
+		<script type="text/javascript" src="includes/javaScript/modernizr-2.6.2.js" ></script>
+				
+		<!-- CSS -->
+		<link rel="Stylesheet" type="text/css" href="includes/css/styleSheet.css" >		
+		
+		<!-- FONTS -->		
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+		
+		<!-- viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	</head>
+	
+	<body>				
+		<aside id="asideBar" class="menuForHomePage">	<!-- start MENU -->				
+			<section id="hiddenAside">		
+				<a id="homeIcon" href="#"><img id="homePageLink" src="img/page1images/homePageLinkPage1.png" alt="back to home page" title="back to home page"></a>				
+				<nav>	
+					<a id="projectPage" href="#">the project</a>
+					<a id="ourCollection" href="#">our collection</a>
+					<a id="yourUmbrella" href="#">your umbrella</a>				
+				</nav>
+			</section>
+			<section id="shownAside">
+				<article id="temprature">
+					<p id="tempratureNumber"></p>	
+					<p>c</p>
+					<p id="degree">&deg;</p>
+				</article>
+				<section id="mapImg" class="mapImgForHomePage">					
+					<img id="locationDot" src="img/page1images/page1Dot.png">
+				</section>
+				<section id="location">
+					<p id="airportCode" class="portCode"></p>
+					<p id="city" class="cityName"></p>
+				</section>
+			</section>
+			<img id="asideArrow" src="img/page1images/asideArrow.png" alt="arrowd down" title="arrow down">	
+			<section id="pageTitle"> 
+				<p>the</p>
+				<p>project</p>
+			</section>
+		</aside>	<!-- end MENU --> 
+		
+		<section id="homePage">	<!-- start HOMEPAGE -->
+			<article class="page1Contnt">
+				<!--	place of the umbrella logo	-->
+			</article>			
+			<article id="navigate-up">							
+				<a class="arrowNavigate" href="#">
+					<img src="img/page1images/scrollUp.png" alt="to project page" title="to project page">
+				</a>
+			</article>
+		</section>	<!-- end HOMEPAGE -->
+		
+		<section id="page_2">	<!-- start PAGE 2 -->	
+			<section>
+				<article id="projectPageIcon">
+					<img id="page2Innerlogo" src="img/page2images/umbrellaSecondPage.png">
+				</article>				
+																
+				<article id="projectPageMenu">		
+					<ul>
+						<li><a href="#" onmouseover="animateLogo('climate')" onmouseout="backToSourceImg()" onclick="getContent('climate')" >CLIMATE</a></li>								
+						<li><a href="#" onmouseover="animateLogo('whyUmbrella')" onmouseout="backToSourceImg()" onclick="getContent('whyUmbrella')" >WHY UMBRELLA</a>								
+						<li><a href="#" onmouseover="animateLogo('airport')" onmouseout="backToSourceImg()" onclick="getContent('airport')" >UMBRELLA IN THE AIRPORT</a>								
+						<li><a href="#" onmouseover="animateLogo('concept')" onmouseout="backToSourceImg()" onclick="getContent('concept')" >THE STORE'S CONCEPT</a>								
+					</ul>					
+				</article>	
+			
+				<article class="climate description">
+					<h1>CLIMATE</h1>
+					<p>				
+						This project started as an attempt to create a
+						logo that would eventually be used in the airport
+						facilities. Each student was assigned a field of
+						interest concerning the asia continent (such as
+						population, geography, etc...) My topic was
+						Climate.
+						<br>
+						Design is all about extremes. therefore, I looked
+						for the most extreme climate state in asia that
+						would inspire me the most. That’s when I came
+						up with the Monsoon.	
+						<a href="#" onclick="backToProjectMenu('climate')" >BACK...</a>							
+					</p>
+										
+				</article>
+				<article class="whyUmbrella description">
+					<h1>WHY UMBRELLA</h1>
+					<p>
+						When I’ve decided to use the Monsoon as my<br>
+						concept, I had to try many different graphic<br>
+						directions in order to describe the Monsoon.<br>
+						<br>
+						Eventually I chose the umbrella because it was<br>
+						the simplest most common way to describe rain.<br>
+						Monsoon is not a storm with any specific traits<br>
+						except heavy rain and the way it forms.<br>
+						<br>
+						The way the Monsoon forms is demonstrated<br>
+						by the unique scrolling of the website.
+						<a href="#" onclick="backToProjectMenu('whyUmbrella')" >BACK...</a>
+					</p>						
+				</article>
+				<article class="description airport">
+					<h1>UMBRELLA IN THE AIRPORT</h1>
+					<p>
+						When you arrive in one of the Monsoon effect-<br>
+						ed countries, the first thing you need to con-<br>
+						cider is how to protect yourself against the rain.<br>
+						<br>
+						The most basic item is an umbrella. My brand is<br>
+						here to cover up for you.
+						<a href="#" onclick="backToProjectMenu('airport')" >BACK...</a>
+					</p>						
+				</article>
+				<article class="description concept">
+					<h1>THE STORE’S CONCEPT</h1>
+					<p>
+						We don’t just provide you the best umbrellas,<br>
+						we are also here to inform you of when a mon-<br>
+						soon strikes so you will never be surprised.<br>
+						<br>
+						Our website tracks Monsoon all over the asian<br>
+						continent and is provided by a special GPS<br>
+						system to know exactly what airport you are at.<br>
+						<br>
+						When it starts to pour, you will be the first one<br>
+						to know.
+						<a href="#" onclick="backToProjectMenu('concept')" >BACK...</a>
+					</p>						
+				</article>					
+			</section>
+									
+			<article id="navigate-right">							
+				<a class="arrowNavigate" href="#">
+					<img src="img/page2images/scrollRight.png" alt="to collection page" title="to collection page">
+				</a>
+			</article>				
+		</section>	<!-- end PAGE 2 -->
+
+		<section id="page_3"> <!-- start PAGE 3 -->	
+			<article class="pageHeader">
+				<p>so go on and let the rain pour</p>
+				<p>I’LL BE  ALL YOU NEED AND MORE...</p>
+			</article>
+			<section>
+				<article class="collectionItem">
+					<p class="itemTitle">tingling monsoon</p>
+					<p class="itemTitleLight">$26</p>
+					<img src="img/page3images/collection/umbrela1.png" alt="tingling monsoon umbrela" title="tingling monsoon umbrela">
+				</article>					
+				<article class="collectionItem">
+					<p class="itemTitle">dripping monsoon</p>
+					<p class="itemTitleLight">$18</p>
+					<img src="img/page3images/collection/umbrela2.png" alt="dripping monsoon umbrela" title="dripping monsoon umbrela">
+					<article class="itemRemark">
+						<img src="img/page3images/collection/heart.png" alt="heart" title="heart">
+						<p>this month’s<p>
+						<p>faourite<p>
+					</article>
+				</article>		
+				<div class="clearForTablet"></div>				
+				<article class="collectionItem">
+					<p class="itemTitle">splashy monsoon</p>
+					<p class="itemTitleLight">$32</p>
+					<img src="img/page3images/collection/umbrela3.png" alt="splashy monsoon umbrela" title="splashy monsoon umbrela">
+				</article>
+				<div class="clearForDesktop"></div>	
+				<article class="collectionItem">
+					<p class="itemTitle">stormy monsoon</p>
+					<p class="itemTitleLight">$45</p>
+					<img src="img/page3images/collection/umbrela4.png" alt="stormy monsoon umbrela" title="stormy monsoon umbrela">
+					<article class="itemRemark2">
+						<img src="img/page3images/collection/heart.png" alt="heart" title="heart">
+						<img src="img/page3images/collection/heart.png" alt="heart" title="heart">
+					</article>
+				</article>			
+				<div class="clearForTablet"></div>				
+				<article class="collectionItem">
+					<p class="itemTitle">pouring monsoon</p>
+					<p class="itemTitleLight">$38</p>
+					<img src="img/page3images/collection/umbrela5.png" alt="pouring monsoon umbrela" title="pouring monsoon umbrela">
+				</article>				
+				<article class="collectionItem">
+					<p class="itemTitle">soggy monsoon</p>
+					<p class="itemTitleLight">$45</p>
+					<img src="img/page3images/collection/umbrela6.png" alt="soggy monsoon umbrela" title="soggy monsoon umbrela">
+					<article class="itemRemark3">
+						<p>NEW!<p>
+					</article>
+				</article>
+			</section>			
+			<article id="navigate-down">							
+				<a class="arrowNavigate" href="#">
+					<img src="img/page3images/scrollDown.png" alt="to umbrella page" title="to umbrella page">
+				</a>
+			</article>
+		</section>	<!-- end PAGE 3 -->				
+
+		<section id="page_4">	<!-- start PAGE 4 -->	
+			<article>
+				<p>when the sun shines</p>
+				<p>WE’LL SHINE TOGETHER</p>
+			</article>
+			<section>
+				<article>
+					<img src="img/page4images/umbrelaPage4.png">
+					<video id="umbrelaVideo" autoplay>
+						<source>
+				
+					</video>
+				</article>		
+				<article class="right_container">	
+					<p class="lightText">click to choose your favourite</p>
+					<p class="lightText">umbrella</p>
+					<hr>
+					<p>color is the skin of</p>
+					<p>the world</p>
+					<article id="colorMenu">		
+						<ul>
+							<li><a href="#" data-video-num = 1><img src="img/page4images/umbrelaColors/color1.png" alt="light blue" title="light blue"></a></li>								
+							<li><a href="#" data-video-num = 2><img src="img/page4images/umbrelaColors/color2.png" alt="pink" title="pink"></a></li>	
+							<li><a href="#" data-video-num = 3><img src="img/page4images/umbrelaColors/color3.png" alt="purple" title="purple"></a></li>	
+							<li><a href="#" data-video-num = 4><img src="img/page4images/umbrelaColors/color4.png" alt="turquoise" title="turquoise"></a></li>	
+							<li><a href="#" data-video-num = 5><img src="img/page4images/umbrelaColors/color5.png" alt="yellow" title="yellow"></a></li>
+						</ul>
+					</article>
+				</article>
+			</section>
+			<article id="navigate-left">							
+				<a class="arrowNavigate" href="#">
+					<img src="img/page4images/scrollLeft.png" alt="to home page" title="to home page">
+				</a>
+			</article>
+		</section>		<!-- end PAGE 4 -->	
+		
+		<!-- Alert Movie Section-->
+		<section id="shadow"></section>
+		<video id="alertMovie">		
+			<source src="movies/alert.mp4" type="video/mp4">
+			<source src="movies/alert.ogv" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+	   <div id="command">
+			<a class="alertSwitcher" href="#">Monsoon Alert</a>
+		</div>
+		
+	</body>
+</html>
